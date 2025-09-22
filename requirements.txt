@@ -1,0 +1,14 @@
+pandas 
+numpy 
+matplotlib 
+seaborn 
+scikit-learn
+ipykernel
+ipython
+tqdm
+scipy
+# CUDA-accelerated ML libraries (Windows compatible)
+xgboost>=2.0.0
+skorch
+# Install separately with: pip install cupy-cuda11x
+# Note: CuML not available on Windows - use sklearn + XGBoost GPU + PyTorch instead
